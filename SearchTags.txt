@@ -1,0 +1,42 @@
+body
+	div id=container
+		div id=container-in
+			div id=div_body
+				div id=main_all
+					div id=main
+						div id=main_tartalom
+							div class=lista_all
+								div class=box_torrent_all
+ez itt egy torrent								
+									div class=box_torrent
+										div class=box_alap_img
+											<a href="/torrents.php?tipus=xvid_hun">
+												<img class="categ_link" title="Filmek tömörített formátumban, magyarul (DivX, XviD)." alt="XviD/HU" src="https://static.ncore.cc/styles/grunge/ico/ico_xvid_hun.gif">
+										div class=box_nagy2
+											div class=box_nev2
+												div class=tabla_szoveg
+													div class=torrent_txt
+														<a title="Partraszállás - A felderítők" onclick="torrent(1790079); return false;" href="torrents.php?action=details&id=1790079">
+															<nobr>Partraszállás - A felderítők</nobr>
+														div class=torrent_txt_also
+															div class=infobar
+																<img class="infobar_ico" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0328/a0e965f13bdb144e47dcfe7fc634a1f4/px27222213.jpg', '317', 'borito1790079', this)" onmouseout="elrejt('borito1790079')">
+															div class=siterank
+																<span title="Pathfinders: In the Company of Strangers">Pathfinders: In the Company of...</span>
+																<a class="infolink" href="http://hideref.l7cache.com/?http://hungarian.imdb.com/title/tt1260680/" target="_blank">
+																	<b>[</b>
+																	imdb: 3.6
+																	<b>]</b>
+											div class=box_feltoltve2
+												2015-03-28
+												<br>
+												23:28:45
+											div class=box_meret2
+												695.46 MB
+											div class=box_d2
+												0
+											div class=box_s2
+												<a class="torrent" href="torrents.php?action=details&id=1790079&peers=1#peers">1</a>
+											div class=box_l2
+												<a class="torrent" href="torrents.php?action=details&id=1790079&peers=1#peers">25</a>
+												

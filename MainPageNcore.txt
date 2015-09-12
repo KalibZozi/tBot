@@ -1,0 +1,1402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Language" content="hu">
+		<link rel="icon" href="https://static.ncore.cc/styles/ncore.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="https://static.ncore.cc/styles/ncore.ico" type="image/x-icon">
+		<link rel="stylesheet" href="https://static.ncore.cc/styles/grunge/style_sslv11.css" type="text/css">
+		<link rel="alternate" href="/rss/rss.xml" type="application/rss+xml" title="nCORE Torrentek">
+		<link rel="alternate" href="/rss/rssdd.xml" type="application/rss+xml" title="nCORE Torrentek Közvetlen Letöltéssel">
+		<title>nCore | Letöltés</title>
+		<!--[if lt IE 7.]>
+		<script defer type="text/javascript" src="https://static.ncore.cc/static/js/pngfix.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="https://static.ncore.cc/static/js/fancybox/fancybox.css" type="text/css">
+				<script language="JavaScript" type="text/javascript" src="https://static.ncore.cc/static/js/jquery_stuff.js?v=1"></script>
+		<script language="JavaScript" type="text/javascript" src="https://static.ncore.cc/static/js/ncorev12.js?v=1"></script>
+	</head>
+<body>
+<div id="container">
+	<div id="container_in">
+		<div id="div_body">
+			<div id="fej_csik_felso"></div>
+			<div id="fej_fejlec_bg"><div id="fej_fejlec"></div></div>
+			<div id="menu_bg">
+			<div id="menu_all">
+				<div id="menu_left"></div>
+				<div id="menu_center" >
+								<div class="menu_arrow"></div>
+				<div class="menu_text"><a href="index.php" id="menu_1" class="menu_link">Főoldal</a></div>
+				<div class="menu_arrow"></div>
+								<div class="menu_text"><a href="torrents.php" id="menu_2" class="menu_link">Letöltés</a></div>
+				<div class="menu_arrow"></div>
+				<div class="menu_text"><a href="upload.php" id="menu_3" class="menu_link">Feltöltés</a></div>
+				<div class="menu_arrow"></div>
+				<div class="menu_text"><a href="requests.php" id="menu_4"  class="menu_link">Kérések</a></div>
+				<div class="menu_arrow"></div>
+								<div class="menu_text"><a href="recommended.php" id="menu_5" class="menu_link">Ajánló</a></div>
+				<div class="menu_arrow"></div>
+				<div class="menu_text"><a href="forum.php" id="menu_6" class="menu_link">Fórum</a></div>
+				<div class="menu_arrow"></div>
+				<div class="menu_text"><a href="wiki.php" id="menu_7" class="menu_link">Wiki</a></div>
+				<div class="menu_arrow"></div>
+				<div class="menu_text"><a href="users.php" id="menu_8" class="menu_link">Felhasználók</a></div>
+				<div class="menu_arrow"></div>
+				<div class="menu_text"><a href="helpdesk.php" id="menu_9" class="menu_link">HelpDesk</a></div>
+								<div class="menu_arrow"></div>
+				<div class="menu_text"><a href="exit.php?q=6ac48bbc557130e84a829a38a590e4d6" id="menu_11" class="menu_link">Kilépés</a></div>
+			</div>
+			<div id="menu_right"></div>
+		</div>
+	</div>
+    <div id="infosav">
+		<div class="infosav_l"></div>
+		<div class="infosav_c">
+			<div id="infosav_adatok">
+				<a href="profile.php">KalibZozi</a>
+																(Felhasználó),
+				Pontok: <a href="wiki.php?action=read&id=33">3668</a>
+				Fel: <span class="list_alert">51.79 GB</span>
+				Helyezés:
+				<a class="list_alert" href="wiki.php?action=read&id=581">365812</a>.
+				[<a class="list_alert" href="hitnrun.php">Aktivitás</a>]
+				[<a class="premium" href="premium.php">Prémium</a>]
+			</div>
+			<div id="infosav_extra">
+												<div id="i_e_log"><a href="log.php" title="Torrentek naplózása"><img src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="i_e_link"></a></div>
+								<div class="i_e_vonal"></div>
+				<div id="i_e_baratok"><a href="profile.php?action=friends" title="Barátok"><img src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="i_e_link"></a></div>
+				<div class="i_e_vonal"></div>
+				<div id="i_e_konyvjelzo"><a id="konyvjelzo" href="bookmarks.php" title="Könyvjelző"><img src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="i_e_link"></a></div>
+				<div class="i_e_vonal"></div>
+				<div id="i_e_beallitasok"><a href="profile.php?action=config" title="Profil beállítása"><img src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="i_e_link"></a></div>
+				<div class="i_e_vonal"></div>
+				<div id="i_e_level"><a href="inbox.php" title="Üzeneteim"><img src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="i_e_link"></a></div>
+								<div class="i_e_vonal"></div>
+				<div id="i_e_meghivo"><a href="invite.php" title="Meghívó"><img src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="i_e_link"></a></div>
+			</div>
+		</div>
+		<div class="infosav_r"></div>
+    </div>
+	<div id="main_all">
+		<div id="main">
+        		<div id="main_tartalom">
+<script type="text/javascript">
+	var ks=true;
+	$(document).ready(function() {
+		/*$("#upperad").load("http://yayo.hu/api/banner/900");*/
+//		$("#bottomad").load("http://yayo.hu/api/banner/900");
+		var inputFocused = false;
+		$('input').focusin(function() {
+			inputFocused = true;
+		});
+		$('input').focusout(function() {
+			inputFocused = false;
+		});
+		$(this).keydown(function(e) {
+			if($('#pPa').length > 0 && e.keyCode == 37 && ks && !inputFocused && $(document).scrollLeft() == 0) {
+				window.location = $('#pPa').attr('href');
+			} else if ($('#nPa').length > 0 && e.keyCode == 39 && ks && !inputFocused && ($(document).scrollLeft() + $(window).width()) == $(document).width()) {
+				window.location = $('#nPa').attr('href');
+			}
+		});
+	});
+	function fads() {
+		return '';
+	}
+	function disableKeys(){
+		ks=false;
+	}
+	function enableKeys(){
+		ks=true;
+	}
+	function torrent(id) {
+		var e = $('#'+id);
+		var loading = '<div class="torrent_lenyilo_lehetoseg"><div class="lehetosegek">Lehetőségeid:</div><div class="letoltve"><a href="torrents.php?action=download&id='+id+'"><img src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="torr_reszletek_btn"></a></div><div class="letoltve_txt"><a href="torrents.php?action=download&id='+id+'">Torrent letöltése</a></div></div><div class="torrent_lenyilo_tartalom"><div style="margin:10px 0;text-align:center"><img src="https://static.ncore.cc/styles/ajax.gif" title="Töltés..."></div></div><div class="torrent_lenyilo_lab"></div>';
+        if (!e.html() || e.html()==loading) {
+			e.html(loading);
+			e.toggle(0);
+			$.get('ajax.php?action=torrent_drop&id='+id,function(data) {e.html(data); BannerEventHandler.init();$('#'+id+' .fancy_groups').fancybox({'onStart':disableKeys,'onClosed':enableKeys});});
+		} else
+			e.toggle(0);
+	}
+	function parosKlikk(id) {
+		return true;
+	}
+	function nCoreKep(cim, meretek) {
+		var url = cim;
+		var meret = meretek.split("x",2);
+		var width = ( (parseInt(meret[0])+25) > 455 ? (parseInt(meret[0])+25) : 455 );
+		var height = parseInt(meret[1])+170;
+		window.open('/showimage.php?link='+url,'_blank','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+width+', height='+height );
+	}
+	function keresestMutat(type) {
+		var dom_nyit = document.getElementById('panel_stuff');
+		var dom_resz = document.getElementById('kategoriak');
+		if (type==1) {
+			dom_nyit.className = "panel_closed";
+			dom_resz.style.display = "block";
+			return true;
+		}
+		dom_nyit.className = dom_nyit.className == "panel_closed" ? "panel_open" : "panel_closed" ;
+		dom_resz.style.display = dom_resz.style.display == "none" ? "block" : "none" ;
+		if (dom_resz.style.display == 'none') document.getElementById('cimkek_lista').style.display = 'none';
+	}
+	function lenyitKereso(id) {
+		var dom_lenyit = document.getElementById(id);
+		if (!dom_lenyit) return false;
+		dom_lenyit.style.display = dom_lenyit.style.display == "none" ? "block" : "none" ;
+		if (dom_lenyit.style.display == 'none') {
+			var inner_tags = dom_lenyit.getElementsByTagName('input');
+			for (i=0; i<inner_tags.length; i++) {
+				inner_tags[i].checked = false;
+			}
+		}
+	}
+	function markAll(id) {
+		var holder = document.getElementById(id);
+		if (!holder) return false;
+		var inner_tags = holder.getElementsByTagName('input');
+		for (i=0; i<inner_tags.length; i++) {
+			inner_tags[i].checked = inner_tags[i].checked==true?false:true;
+		}
+		tipust_valt();
+	}
+	function tipust_valt() {
+		var list = document.getElementById('listazasi_tipus');
+		list.selectedIndex = 2;
+	}
+	function nevHosszEllenorzes() {
+		if (document.kereses_mezo.mire.value && document.kereses_mezo.mire.value.length < 3) {
+			alert("FIGYELMEZTETÉS!\r\n\r\nA keresendő: '"+document.kereses_mezo.mire.value+"' rövidebb, mint 3 karakter hosszú!\r\n\r\nA keresés nem folytatódik, írj be hosszabb nevet!");
+			return false;
+		} else {
+			return true;
+		}
+	}
+	function showTags() {
+		if (document.getElementById('cimkek_lista').style.display == 'none') {
+			document.getElementById('cimkek_lista').style.display = '';
+			document.getElementById('cimke_text').innerHTML = '[címkék elrejtése]';
+		} else {
+			document.getElementById('cimkek_lista').style.display = 'none';
+			document.getElementById('cimke_text').innerHTML = '[címkék mutatása]';
+		}
+	}
+	function addTag(mit) {
+		var added = document.getElementById('tags').value.toLowerCase();
+		var matchRe = new RegExp(mit.toLowerCase());
+		if (matchRe.test(added)) return false;
+		document.getElementById('tags').value = document.getElementById('tags').value.replace(/,[ ]*$/, '');
+		document.getElementById('tags').value += (added?', ':'')+mit;
+		return true;
+	}
+</script>
+    <div class="fobox_all" id="torrents1">
+        <div class="fobox_fej_t"></div>
+        <div class="fobox_fej"><span id="torrents1_txt">Kereső & Lapozó</span></div>
+        <div class="fobox_fej_b"></div>
+        <div class="fobox_tartalom_t"></div>
+        <div class="fobox_tartalom">
+	    <div style="display:none;" id="kategoriak">
+	<form method="post" action="/torrents.php" id="kereses_mezo" name="kereses_mezo" onsubmit="return nevHosszEllenorzes();">
+		<table width="720" id="table_torrcat">
+			<tr>
+				<td width="20"><input type="checkbox" onclick="lenyitKereso('filmek_resz');" name="nyit_filmek_resz" value="true"></td>
+				<td width="60"><a href="/torrents.php?csoport_listazas=osszes_film">Film</a></td>
+				<td width="20"><input type="checkbox" onclick="lenyitKereso('sorozat_resz');" name="nyit_sorozat_resz" value="true"></td>
+				<td width="60"><a href="/torrents.php?csoport_listazas=osszes_sorozat">Sorozat</a></td>
+				<td width="20"><input type="checkbox" onclick="lenyitKereso('zene_resz');" name="nyit_zene_resz" value="true"></td>
+				<td width="60"><a href="/torrents.php?csoport_listazas=osszes_zene">Zene</a></td>
+				<td width="20"><input type="checkbox" onclick="lenyitKereso('xxx_resz');" name="nyit_xxx_resz" value="true"></td>
+				<td width="60"><a href="/torrents.php?csoport_listazas=osszes_xxx">XXX</a></td>
+				<td width="20"><input type="checkbox" onclick="lenyitKereso('jatek_resz');" name="nyit_jatek_resz" value="true"></td>
+				<td width="60"><a href="/torrents.php?csoport_listazas=osszes_jatek">Játék</a></td>
+				<td width="20"><input type="checkbox" onclick="lenyitKereso('prg_resz');" name="nyit_prog_resz" value="true"></td>
+				<td width="60"><a href="/torrents.php?csoport_listazas=osszes_program">Program</a></td>
+				<td width="20"><input type="checkbox" onclick="lenyitKereso('konyv_resz');" name="nyit_konyv_resz" value="true"></td>
+				<td width="60"><a href="/torrents.php?csoport_listazas=osszes_konyv">Könyv</a></td>
+			</tr>
+		</table>
+	<div style="display:none;width:840;" id="filmek_resz">
+	<table width="840" border="0" cellspacing="0" cellpadding="0">
+		<tr><td width="80"><a href="javascript:markAll('filmek_resz');">Film</a>:</td>
+		<td width="20"><input name="kivalasztott_tipus[]" id="check_xvid_hun" type="checkbox" onclick="tipust_valt();" value="xvid_hun"></td><td width="75"><a title="Filmek tömörített formátumban, magyarul (DivX, XviD)." href="/torrents.php?tipus=xvid_hun">XviD/HU</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_xvid" type="checkbox" onclick="tipust_valt();" value="xvid"></td><td width="75"><a title="Filmek tömörített formátumban, angolul (DivX, XviD)." href="/torrents.php?tipus=xvid">XviD/EN</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_dvd_hun" type="checkbox" onclick="tipust_valt();" value="dvd_hun"></td><td width="75"><a title="Filmek DVD-n, magyarul." href="/torrents.php?tipus=dvd_hun">DVDR/HU</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_dvd" type="checkbox" onclick="tipust_valt();" value="dvd"></td><td width="75"><a title="Filmek DVD-n, angolul." href="/torrents.php?tipus=dvd">DVDR/EN</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_dvd9_hun" type="checkbox" onclick="tipust_valt();" value="dvd9_hun"></td><td width="75"><a title="Filmek DVD9 formátumban magyarul." href="/torrents.php?tipus=dvd9_hun">DVD9/HU</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_dvd9" type="checkbox" onclick="tipust_valt();" value="dvd9"></td><td width="75"><a title="Filmek DVD9 formátumban angolul." href="/torrents.php?tipus=dvd9">DVD9/EN</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_hd_hun" type="checkbox" onclick="tipust_valt();" value="hd_hun"></td><td width="75"><a title="Nagyfelbontású filmek HD-n, magyarul." href="/torrents.php?tipus=hd_hun">HD/HU</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_hd" type="checkbox" onclick="tipust_valt();" value="hd"></td><td width="75"><a title="Nagyfelbontású filmek HD-n, angolul." href="/torrents.php?tipus=hd">HD/EN</a></td>	</tr></table></div>
+	<div style="display:none;width:840;" id="sorozat_resz">
+	<table width="840" border="0" cellspacing="0" cellpadding="0">
+		<tr><td width="80"><a href="javascript:void(0);" onclick="markAll('sorozat_resz');">Sorozat</a>:</td>
+		<td width="20"><input name="kivalasztott_tipus[]" id="check_xvidser_hun" type="checkbox" value="xvidser_hun" onclick="tipust_valt();"></td><td width="75"><a title="Sorozatok DivX, XviD formátumban magyarul." href="/torrents.php?tipus=xvidser_hun">XviD/HU</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_xvidser" type="checkbox" value="xvidser" onclick="tipust_valt();"></td><td width="75"><a title="Sorozatok DivX, XviD formátumban angolul." href="/torrents.php?tipus=xvidser">XviD/EN</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_dvdser_hun" type="checkbox" value="dvdser_hun" onclick="tipust_valt();"></td><td width="75"><a title="Sorozatok DVD-n magyarul." href="/torrents.php?tipus=dvdser_hun">DVDR/HU</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_dvdser" type="checkbox" value="dvdser" onclick="tipust_valt();"></td><td width="75"><a title="Sorozatok DVD-n angolul." href="/torrents.php?tipus=dvdser">DVDR/EN</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_hdser_hun" type="checkbox" value="hdser_hun" onclick="tipust_valt();"></td><td width="75"><a title="Nagyfelbontású sorozatok HD-n magyarul." href="/torrents.php?tipus=hdser_hun">HD/HU</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_hdser" type="checkbox" value="hdser" onclick="tipust_valt();"></td><td width="75"><a title="Nagyfelbontású sorozatok HD-n angolul." href="/torrents.php?tipus=hdser">HD/EN</a></td>		<td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td>
+	</tr></table></div>
+	<div style="display:none;width:840;" id="zene_resz">
+	<table width="840" border="0" cellspacing="0" cellpadding="0">
+		<tr><td width="80"><a href="javascript:void(0);" onclick="markAll('zene_resz');">Zene</a>:</td>
+		<td width="20"><input name="kivalasztott_tipus[]" id="check_mp3_hun" type="checkbox" value="mp3_hun" onclick="tipust_valt();"></td><td width="75"><a title="Zene magyar előadóktól (MP3)." href="/torrents.php?tipus=mp3_hun">MP3/HU</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_mp3" type="checkbox" value="mp3" onclick="tipust_valt();"></td><td width="75"><a title="Zene külföldi előadóktól (MP3)." href="/torrents.php?tipus=mp3">MP3/EN</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_lossless_hun" type="checkbox" value="lossless_hun" onclick="tipust_valt();"></td><td width="75"><a title="Lossless, azaz veszteségmentes formátumú zene magyar eloadótól (APE/FLAC/DTS/WAV)." href="/torrents.php?tipus=lossless_hun">Lossless/HU</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_lossless" type="checkbox" value="lossless" onclick="tipust_valt();"></td><td width="75"><a title="Lossless, azaz veszteségmentes formátumú zene külföldi eloadótól (APE/FLAC/DTS/WAV)." href="/torrents.php?tipus=lossless">Lossless/EN</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_clip" type="checkbox" value="clip" onclick="tipust_valt();"></td><td width="75"><a title="Koncertek, Zenei anyagok." href="/torrents.php?tipus=clip">Klip</a></td>		<td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td>
+	</tr></table></div>
+	<div style="display:none;width:840;" id="xxx_resz">
+	<table width="840" border="0" cellspacing="0" cellpadding="0">
+		<tr><td width="80"><a href="javascript:void(0);" onclick="markAll('xxx_resz');">XXX</a>:</td>
+		<td width="20"><input name="kivalasztott_tipus[]" id="check_xxx_xvid" type="checkbox" value="xxx_xvid" onclick="tipust_valt();"></td><td width="75"><a title="Erotikus tartalom (XviD)." href="/torrents.php?tipus=xxx_xvid">XviD</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_xxx_dvd" type="checkbox" value="xxx_dvd" onclick="tipust_valt();"></td><td width="75"><a title="Erotikus tartalom (DVD)." href="/torrents.php?tipus=xxx_dvd">DVDR</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_xxx_imageset" type="checkbox" value="xxx_imageset" onclick="tipust_valt();"></td><td width="75"><a title="Erotikus tartalom (Képsorozatok)." href="/torrents.php?tipus=xxx_imageset">Imageset</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_xxx_hd" type="checkbox" value="xxx_hd" onclick="tipust_valt();"></td><td width="75"><a title="Erotikus tartalom (HD)." href="/torrents.php?tipus=xxx_hd">HD</a></td>		<td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td>
+	</tr></table></div>
+	<div style="display:none;width:840;" id="jatek_resz">
+	<table width="840" border="0" cellspacing="0" cellpadding="0">
+		<tr><td width="80"><a href="javascript:void(0);" onclick="markAll('jatek_resz');">Játék</a>:</td>
+		<td width="20"><input name="kivalasztott_tipus[]" id="check_game_iso" type="checkbox" value="game_iso" onclick="tipust_valt();"></td><td width="75"><a title="Játékok CD/DVD képben." href="/torrents.php?tipus=game_iso">PC/ISO</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_game_rip" type="checkbox" value="game_rip" onclick="tipust_valt();"></td><td width="75"><a title="Játék RIP-ek, törések, egyéb." href="/torrents.php?tipus=game_rip">PC/RIP</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_console" type="checkbox" value="console" onclick="tipust_valt();"></td><td width="75"><a title="Játékok Xbox-ra, PS-re, PSP-re, GC-re, Wii-re." href="/torrents.php?tipus=console">Konzol</a></td>		<td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td>
+	</tr></table></div>
+	<div style="display:none;width:840;" id="prg_resz">
+	<table width="840" border="0" cellspacing="0" cellpadding="0">
+		<tr><td width="80"><a href="javascript:void(0);" onclick="markAll('prg_resz');">Program</a>:</td>
+		<td width="20"><input name="kivalasztott_tipus[]" id="check_iso" type="checkbox" value="iso" onclick="tipust_valt();"></td><td width="75"><a title="Szoftverek, programok CD/DVD képben." href="/torrents.php?tipus=iso">Prog/ISO</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_misc" type="checkbox" value="misc" onclick="tipust_valt();"></td><td width="75"><a title="Programok/Egyéb" href="/torrents.php?tipus=misc">Prog/RIP</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_mobil" type="checkbox" value="mobil" onclick="tipust_valt();"></td><td width="75"><a title="Programok és játékok mobilra." href="/torrents.php?tipus=mobil">Prog/Mobil</a></td>		<td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td>
+	</tr></table></div>
+	<div style="display:none;width:840;" id="konyv_resz">
+	<table width="840" border="0" cellspacing="0" cellpadding="0">
+		<tr><td width="80"><a href="javascript:void(0);" onclick="markAll('konyv_resz');">Könyv</a>:</td>
+		<td width="20"><input name="kivalasztott_tipus[]" id="check_ebook_hun" type="checkbox" value="ebook_hun" onclick="tipust_valt();"></td><td width="75"><a title="Könyvek, dokumentációk, tananyagok, eBook-ok magyarul." href="/torrents.php?tipus=ebook_hun">eBook/HU</a></td>		<td width="20"><input name="kivalasztott_tipus[]" id="check_ebook" type="checkbox" value="ebook" onclick="tipust_valt();"></td><td width="75"><a title="Könyvek, dokumentációk, tananyagok, eBook-ok angolul." href="/torrents.php?tipus=ebook">eBook/EN</a></td>		<td width="20"></td><td width="75"></td><td width="20"></td><td width="80"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td><td width="20"></td><td width="75"></td>
+	</tr></table></div>
+	<div class="hr_stuff"></div>
+	<center>
+	<table id="keresoresz" style="width: 700px">
+		<tr>
+		    <!--[if IE]>
+				<input type="submit" value="" style="height:0px;width:1px;border:none;background:transparent;">
+			<![endif]-->
+            <td width="80" style="text-align:left;">Keresés:</td>
+            <td width="150">
+				<input  id="mire" type="text" name="mire" value="" class="keresesMezo">
+							</td>
+            <td width="20" style="text-align:center;"> - </td>
+            <td width="130">
+				<select name="miben" class="valasztasMezo" style="width:130px;">
+					<option value="name" >Címben</option>
+					<option value="leiras" >Leírásban</option>
+															<option value="cimke" >Címke</option>
+				</select>
+			</td>
+			<td width="20" style="text-align:center;"> - </td>
+            <td width="130">
+				<select name="tipus" id="listazasi_tipus" class="valasztasMezo">
+					<option value="all_own">Összes saját típusban</option>
+					<option value="all">Összes típusban</option>
+					<option value="kivalasztottak_kozott">Kiválasztott típusokban</option>
+					<option value="legal">Legális torrentekben</option>
+					<option value="eredeti_releasekben">Eredeti release-ekben</option>
+																				<option value="all"></option>
+					<option value="xvid_hun">Film (HUN XviD)</option>					<option value="xvid">Film (ENG XviD)</option>					<option value="dvd_hun">Film (HUN DVD)</option>					<option value="dvd">Film (ENG DVD)</option>					<option value="dvd9_hun">Film (HUN DVD9)</option>					<option value="dvd9">Film (ENG DVD9)</option>					<option value="hd_hun">Film (HUN HD)</option>					<option value="hd">Film (ENG HD)</option>					<option value="xvidser_hun">Sorozat (HUN XviD)</option>					<option value="xvidser">Sorozat (ENG XviD)</option>					<option value="dvdser_hun">Sorozat (HUN DVD)</option>					<option value="dvdser">Sorozat (ENG DVD)</option>					<option value="hdser_hun">Sorozat (HUN HD)</option>					<option value="hdser">Sorozat (ENG HD)</option>					<option value="mp3_hun">Mp3 (HUN)</option>					<option value="mp3">Mp3 (ENG)</option>					<option value="lossless_hun">Lossless (HUN)</option>					<option value="lossless">Lossless (ENG)</option>					<option value="clip">Klip</option>					<option value="game_iso">Játék (ISO)</option>					<option value="game_rip">Játék (RIP)</option>					<option value="console">Konzol</option>					<option value="ebook_hun">e-Book (HUN)</option>					<option value="ebook">e-Book (ENG)</option>					<option value="iso">Program (ISO)</option>					<option value="misc">Program</option>					<option value="mobil">Mobil</option>					<option value="xxx_xvid">XXX (XviD)</option>					<option value="xxx_dvd">XXX (DVD/DVD9)</option>					<option value="xxx_imageset">XXX (Imageset)</option>					<option value="xxx_hd">XXX (HD)</option>				</select>
+			</td>
+			<td width="100"></td>
+            <td width="100" align="center" style="padding-left:15px;"><input type="image" value="Ok" name="submit" class="g_mehet" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></td>
+		</tr>
+		<tr height="5">
+			<td colspan="8"></td>
+		</tr>
+		<tr>
+			<td width="80" style="text-align:left;">Címkék:  </td>
+            <td><input value="" type="text" id="tags" name="tags" value="" class="keresesMezo" style="width:150px;"></td>
+			<td></td>
+			<td nowrap="" style="text-align:left;"><a href="javascript:void(0);" onclick="showTags();"><span id="cimke_text">[címkék mutatása]</span></a></td>
+			<td colspan="3"></td>
+			<td nowrap="" align="center" style="padding-left:15px;">
+				<a href="/torrents.php" style="padding-top:5px;">[feltételek törlése]</a>
+			</td>
+		</tr>
+	</table>
+	</center>
+	<div id="cimkek_lista" style="display:none;padding-left:0;text-align:left;">
+		<div class="hr_stuff"></div>
+			<center>
+			<table width="890" border="0" cellspacing="0" cellpadding="0" style="padding-top:5px;padding-bottom:5px;padding-left:10px;">
+			<tr height="20"><td align="left" colspan="7"><input  type="checkbox" name="inverz_tags"> Inverz címkék (a kiválasztottak ne szerepeljenek)</td></tr>
+			<tr height="10"><td colspan="7"></td></tr>
+<tr height="20"><td align="left" colspan="7">Filmek:</td></tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('vígjáték');">vígjáték</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('dráma');">dráma</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('életrajz');">életrajz</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('akció');">akció</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('romantikus');">romantikus</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('dokumentumfilm');">dokumentumfilm</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('kaland');">kaland</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('animáció');">animáció</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('thriller');">thriller</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('családi');">családi</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('bűnügyi');">bűnügyi</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('rövidfilm');">rövidfilm</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('musical');">musical</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('sci-fi');">sci-fi</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('misztikus');">misztikus</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('háborús');">háborús</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('western');">western</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('horror');">horror</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('történelmi');">történelmi</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('sport');">sport</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('zene');">zene</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('ismeretterjesztő');">ismeretterjesztő</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('valóságshow');">valóságshow</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('3D');">3D</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('fantasy');">fantasy</a></td>
+</tr>
+<tr height="20"><td align="left" colspan="7">Zenék:</td></tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('60s');">60s</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('70s');">70s</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('80s');">80s</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('90s');">90s</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('alternative');">alternative</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('blues');">blues</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('breaks');">breaks</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('classical');">classical</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('country');">country</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('dance');">dance</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('drum.and.bass');">drum.and.bass</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('electronic');">electronic</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('folk');">folk</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('funk');">funk</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('garage');">garage</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('grunge');">grunge</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('hardcore');">hardcore</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('hardcore.dance');">hardcore.dance</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('hip.hop');">hip.hop</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('house');">house</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('industrial');">industrial</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('jazz');">jazz</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('metal');">metal</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('new.age');">new.age</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('ost');">ost</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('pop');">pop</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('pop.rock');">pop.rock</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('progressive.rock');">progressive.rock</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('psychedelic');">psychedelic</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('psytrance');">psytrance</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('punk');">punk</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('reggae');">reggae</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('rhythm.and.blues');">rhythm.and.blues</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('rock');">rock</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('ska');">ska</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('soul');">soul</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('techno');">techno</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('trance');">trance</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('trip.hop');">trip.hop</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('uk.garage');">uk.garage</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('world.music');">world.music</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('acid');">acid</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('emo');">emo</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('death.metal');">death.metal</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('disco');">disco</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('europop');">europop</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('goa.trance');">goa.trance</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('hardstyle');">hardstyle</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('indie.rock');">indie.rock</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('musical');">musical</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('progressive.house');">progressive.house</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('progressive.trance');">progressive.trance</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('italo.disco');">italo.disco</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('live');">live</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('dub');">dub</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('experimental');">experimental</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('ambient');">ambient</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('latin');">latin</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('synth.pop');">synth.pop</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('euro.house');">euro.house</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('eurodance');">eurodance</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('euro.disco');">euro.disco</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('dubstep');">dubstep</a></td>
+</tr>
+<tr height="20"><td align="left" colspan="7">Ebook:</td></tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('életmód.egészség');">életmód.egészség</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('erotika');">erotika</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('ezoterika');">ezoterika</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('gasztronómia');">gasztronómia</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('gyermek');">gyermek</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('hangoskönyv');">hangoskönyv</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('hobbi');">hobbi</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('irodalom');">irodalom</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('kert.és.lakás');">kert.és.lakás</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('lexikon.enciklopédia');">lexikon.enciklopédia</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('magazin');">magazin</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('manga.képregény');">manga.képregény</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('művészet');">művészet</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('pénz.befektetés.üzlet');">pénz.befektetés.üzlet</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('sport');">sport</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('szakkönyv');">szakkönyv</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('számítástechnika');">számítástechnika</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('szórakoztató.irodalom');">szórakoztató.irodalom</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('szótár.nyelvkönyv');">szótár.nyelvkönyv</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('tankönyv.segédkönyv');">tankönyv.segédkönyv</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('társadalomtudomány');">társadalomtudomány</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('természettudomány');">természettudomány</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('történelem');">történelem</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('utazás');">utazás</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('vallás');">vallás</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('zene');">zene</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('sci-fi');">sci-fi</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('fantasy');">fantasy</a></td>
+</tr>
+<tr>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('romantikus');">romantikus</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('hadászat');">hadászat</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('ismeretterjesztő');">ismeretterjesztő</a></td>
+<td align="left" width="14%"><a style="font-weight:normal;" href="javascript:void(0);" onclick="addTag('szépirodalom');">szépirodalom</a></td>
+</tr>
+			</table>
+		</center>
+	</div>
+</form>
+<div class="hr_stuff" id="letoltes_hr"></div>
+</div>
+<script type="text/javascript">
+</script>
+<div onclick="if (document.getElementById('panel_stuff').className=='panel_closed') {document.getElementById('kategoriak').style.display='block';document.getElementById('panel_stuff').className='panel_open';} else {document.getElementById('kategoriak').style.display='none';document.getElementById('panel_stuff').className='panel_closed';}" class="panel_closed" id="panel_stuff"><a href="javascript:void(0)"></a></div>
+<div id='pager_top'><span class="active_link"><strong>1-25</strong></span> | <a id="nPa" href="/torrents.php?oldal=2"><strong>26-50</strong></a> | <a href="/torrents.php?oldal=3"><strong>51-75</strong></a> | <a href="/torrents.php?oldal=4"><strong>76-100</strong></a> | <a href="/torrents.php?oldal=5"><strong>101-125</strong></a> | <a href="/torrents.php?oldal=6"><strong>126-150</strong></a> | <a href="/torrents.php?oldal=7"><strong>151-175</strong></a> | <a href="/torrents.php?oldal=8"><strong>176-200</strong></a> | <a href="/torrents.php?oldal=9"><strong>201-225</strong></a> | <a href="/torrents.php?oldal=10"><strong>226-250</strong></a> | <a href="/torrents.php?oldal=10"><strong> &raquo;</strong></a>  | <a href="/torrents.php?oldal=5254"><strong>Utolsó</strong></a></div>        </div>
+        <div class="fobox_lab"></div>
+    </div>
+    <center id="upperad">
+<div class="banner" data-id="315" data-banner-id="316" data-zone-id="1,2"><iframe src="https://banner.aqua.hu/banner/banners/index.php" scrolling="no" style="width:892px;border:0;height:91px"></iframe></div></center>
+<br>
+<div class="lista_all">
+	<div class="lista_fej_t"></div>
+	<div class="lista_fej">Böngésző</div>
+	<div class="lista_fej_b"></div>
+		<div class="box_alcimek_all">
+			<div class="box_alap">
+			<table class="alcim">
+				<tr>
+				<td><div class="alcim_bal"></div></td>
+				<td><div class="box_tipus">Típus</div></td>
+				<td><div class="alcim_jobb"></div></td>
+				</tr>
+			</table>
+			</div>
+			<div class="box_alap">
+			<table class="alcim">
+				<tr>
+				<td><div class="alcim_bal"></div></td>
+				<td><div class="box_nev"><a href="/torrents.php?miszerint=name&amp;hogyan=DESC&amp;">Név</a></div></td>
+				<td><div class="alcim_jobb"></div></td>
+				</tr>
+			</table>
+			</div>
+			<div class="box_alap">
+			<table class="alcim">
+				<tr>
+				<td><div class="alcim_bal"></div></td>
+				<td><div class="box_feltoltve"><a href="/torrents.php?miszerint=fid&amp;hogyan=DESC&amp;">Feltöltve</a></div></td>
+				<td><div class="alcim_jobb"></div></td>
+				</tr>
+			</table>
+			</div>
+			<div class="box_alap">
+			<table class="alcim">
+				<tr>
+				<td><div class="alcim_bal"></div></td>
+				<td><div class="box_meret"><a href="/torrents.php?miszerint=size&amp;hogyan=DESC&amp;">Méret</a></div></td>
+				<td><div class="alcim_jobb"></div></td>
+				</tr>
+			</table>
+			</div>
+			<div class="box_alap">
+			<table class="alcim">
+				<tr>
+				<td><div class="alcim_bal"></div></td>
+				<td><div class="box_d"><a href="/torrents.php?miszerint=times_completed&amp;hogyan=DESC&amp;">D</a></div></td>
+				<td><div class="alcim_jobb"></div></td>
+				</tr>
+			</table>
+			</div>
+			<div class="box_alap">
+			<table class="alcim">
+				<tr>
+				<td><div class="alcim_bal"></div></td>
+				<td><div class="box_s"><a href="/torrents.php?miszerint=seeders&amp;hogyan=DESC&amp;">S</a></div></td>
+				<td><div class="alcim_jobb"></div></td>
+				</tr>
+			</table>
+			</div>
+			<div class="box_alap">
+			<table class="alcim">
+				<tr>
+				<td><div class="alcim_bal"></div></td>
+				<td><div class="box_l"><a href="/torrents.php?miszerint=leechers&amp;hogyan=DESC&amp;">L</a></div></td>
+				<td><div class="alcim_jobb"></div></td>
+				</tr>
+			</table>
+			</div>
+			<div class="box_alap_utolso">
+			<table class="alcim">
+				<tr>
+				<td><div class="alcim_bal"></div></td>
+				<td><div class="box_feltolto">Feltöltő</div></td>
+				<td><div class="alcim_jobb"></div></td>
+				</tr>
+			</table>
+			</div>
+		</div>
+		<div class="box_torrent_all">
+			<div style="clear:both;"></div>
+<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=ebook"><img src="https://static.ncore.cc/styles/grunge/ico/ico_ebook.gif" class="categ_link" alt="eBook/EN" title="Könyvek, dokumentációk, tananyagok, eBook-ok angolul."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793545'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793545');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793545" onclick="torrent(1793545); return false;" title="Wayne Gisslen - Professional Cooking"><nobr>Wayne Gisslen - Professional Cooking</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793545')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/ce0b778cab3137ca20072c2241592304/px73374562.jpg', '300', 'borito1793545', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428036429"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>06:47:09</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">57.73 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">4</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793545&peers=1#peers">5</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793545&peers=1#peers">1</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793545"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=ebook"><img src="https://static.ncore.cc/styles/grunge/ico/ico_ebook.gif" class="categ_link" alt="eBook/EN" title="Könyvek, dokumentációk, tananyagok, eBook-ok angolul."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793544'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793544');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793544" onclick="torrent(1793544); return false;" title="Lucy Waverman, Beppi Crosariol - The Flavour Principle"><nobr>Lucy Waverman, Beppi Crosariol - The Flavour Principle</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793544')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/c1cb4d0b14df8d49ed15d286db8029ec/px87826327.jpg', '300', 'borito1793544', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428036426"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>06:47:06</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">14.86 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">4</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793544&peers=1#peers">5</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793544&peers=1#peers">1</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793544"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=ebook"><img src="https://static.ncore.cc/styles/grunge/ico/ico_ebook.gif" class="categ_link" alt="eBook/EN" title="Könyvek, dokumentációk, tananyagok, eBook-ok angolul."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793543'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793543');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793543" onclick="torrent(1793543); return false;" title="Lucy Waverman, Beppi Crosariol - The Flavour Principle"><nobr>Lucy Waverman, Beppi Crosariol - The Flavour Principle</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793543')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/107ebe5f48eff0bdfe33c0446ee98636/px76362143.jpg', '300', 'borito1793543', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428036425"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>06:47:05</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">16.07 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">5</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793543&peers=1#peers">6</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793543&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793543"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793535'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793535');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793535" onclick="torrent(1793535); return false;" title="[Android] Camera FV-5 v2.47"><nobr>[Android] Camera FV-5 v2.47</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793535')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/476699e22393cf857c69349087191a3d/px37765600.png', '300', 'borito1793535', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428035102"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>06:25:02</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">4.23 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">13</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793535&peers=1#peers">13</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793535&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793535"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793534'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793534');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793534" onclick="torrent(1793534); return false;" title="[Android] Attack the Light v1.0.0"><nobr>[Android] Attack the Light v1.0.0</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793534')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/f8e8023951ff791ca9408eee3b26fef4/px60930285.png', '300', 'borito1793534', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428034905"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>06:21:45</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">172.35 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">1</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793534&peers=1#peers">2</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793534&peers=1#peers">1</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793534"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793533'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793533');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793533" onclick="torrent(1793533); return false;" title="[Android] The Gordian Knot v1.01"><nobr>[Android] The Gordian Knot v1.01</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793533')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/30ba1eaf8b8d35973eb1eb4140e31455/px35607512.png', '300', 'borito1793533', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428034806"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>06:20:06</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">58.42 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">1</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793533&peers=1#peers">2</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793533&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793533"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793532'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793532');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793532" onclick="torrent(1793532); return false;" title="[Android] Lady Berta - The Ladybug v1.0"><nobr>[Android] Lady Berta - The Ladybug v1.0</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793532')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/4c791b677eda6bf2deb546246fd1e8bf/px58381821.png', '300', 'borito1793532', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428034679"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>06:17:59</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">85.01 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">3</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793532&peers=1#peers">3</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793532&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793532"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793531'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793531');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793531" onclick="torrent(1793531); return false;" title="[Android] Dead Bunker 4 Apocalypse v1.05"><nobr>[Android] Dead Bunker 4 Apocalypse v1.05</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793531')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/b95081cac2681d0083214594ca9eb821/px13988059.png', '300', 'borito1793531', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428034559"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>06:15:59</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">325.33 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">6</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793531&peers=1#peers">6</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793531&peers=1#peers">2</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793531"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793530'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793530');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793530" onclick="torrent(1793530); return false;" title="[Android] Shapes v1.1.3"><nobr>[Android] Shapes v1.1.3</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793530')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/9c2af53faee842669114c304eaf1b79e/px25994177.png', '300', 'borito1793530', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428034418"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>06:13:38</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">39.05 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">4</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793530&peers=1#peers">4</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793530&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793530"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793529'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793529');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793529" onclick="torrent(1793529); return false;" title="[Android] Locomotion v1.0"><nobr>[Android] Locomotion v1.0</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793529')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/a4bd851a812e4209b11838ad067757e8/px75263931.png', '300', 'borito1793529', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428034311"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>06:11:51</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">20.26 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">3</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793529&peers=1#peers">2</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793529&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793529"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793528'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793528');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793528" onclick="torrent(1793528); return false;" title="[Android] Tales of The Sanctuary - Ch. 1 v1.2.2"><nobr>[Android] Tales of The Sanctuary - Ch. 1 v1.2.2</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793528')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/221b2441560fd5b79a7bceb89e3353ed/px57259729.png', '300', 'borito1793528', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428033824"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>06:03:44</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">33.86 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">7</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793528&peers=1#peers">8</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793528&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793528"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793527'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793527');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793527" onclick="torrent(1793527); return false;" title="[Android] Weather Animated Widgets v5.60"><nobr>[Android] Weather Animated Widgets v5.60</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793527')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/84a8cb1416ad753145d063bbf57e142e/px80746662.png', '300', 'borito1793527', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428033559"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:59:19</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">10.38 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">13</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793527&peers=1#peers">14</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793527&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793527"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793522'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793522');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793522" onclick="torrent(1793522); return false;" title="[Android] Sky Baron - War of Planes v2.01"><nobr>[Android] Sky Baron - War of Planes v2.01</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793522')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/0912912752df2f3bc016d4bc682053d0/px37945311.png', '300', 'borito1793522', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428033334"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:55:34</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">102.55 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">12</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793522&peers=1#peers">12</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793522&peers=1#peers">1</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793522"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793521'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793521');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793521" onclick="torrent(1793521); return false;" title="[Android] har•mo•ny 2 - a harmony sequel v2.1.1"><nobr>[Android] har•mo•ny 2 - a harmony sequel v2.1.1</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793521')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/3b0a4f5b8ca0395ade6cfd0fee7cd590/px28637497.png', '300', 'borito1793521', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428033139"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:52:19</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">196.61 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">1</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793521&peers=1#peers">2</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793521&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793521"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793519'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793519');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793519" onclick="torrent(1793519); return false;" title="[Android] Jump'N'Shoot Attack v1.0"><nobr>[Android] Jump'N'Shoot Attack v1.0</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793519')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/1f142c2df8e56a0555f9748ff3185c0f/px38335480.png', '300', 'borito1793519', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428033020"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:50:20</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">26.6 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">1</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793519&peers=1#peers">2</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793519&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793519"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793516'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793516');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793516" onclick="torrent(1793516); return false;" title="[Android] Arcane Soul Plus v1.0.7"><nobr>[Android] Arcane Soul Plus v1.0.7</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793516')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/43fa92a0ad1c1edee5008060b8e7a4a2/px30036770.png', '300', 'borito1793516', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428032912"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:48:32</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">35.44 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">1</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793516&peers=1#peers">2</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793516&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793516"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793513'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793513');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793513" onclick="torrent(1793513); return false;" title="[Android] Teddy the Panda v1.2"><nobr>[Android] Teddy the Panda v1.2</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793513')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/1378a7b3e0ce85e50c17c7e825e51998/px31840045.png', '300', 'borito1793513', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428032788"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:46:28</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">60.17 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">3</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793513&peers=1#peers">4</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793513&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793513"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793511'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793511');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793511" onclick="torrent(1793511); return false;" title="[Android] Random Heroes 3 v1.2"><nobr>[Android] Random Heroes 3 v1.2</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793511')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/3456f22706ce2c6be2943674be00d1e7/px57758436.png', '300', 'borito1793511', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428032698"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:44:58</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">33.38 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">1</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793511&peers=1#peers">2</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793511&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793511"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793508'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793508');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793508" onclick="torrent(1793508); return false;" title="[Android] Equalizer + Pro (Music Player) v2.1.0"><nobr>[Android] Equalizer + Pro (Music Player) v2.1.0</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793508')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/74a4a8f607a10c943791e4fdd4279bf7/px69563572.png', '300', 'borito1793508', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428032561"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:42:41</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">4.95 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">8</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793508&peers=1#peers">8</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793508&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793508"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793506'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793506');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793506" onclick="torrent(1793506); return false;" title="[Android] Hydro Coach - drink water PRO v2.8.2"><nobr>[Android] Hydro Coach - drink water PRO v2.8.2</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793506')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/b55bcd0b56547958d7e690b84ae65412/px47682627.png', '300', 'borito1793506', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428032378"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:39:38</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">7.18 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">4</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793506&peers=1#peers">4</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793506&peers=1#peers">1</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793506"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793503'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793503');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793503" onclick="torrent(1793503); return false;" title="[Android] Aqua Mail pro - email app v1.5.5.8"><nobr>[Android] Aqua Mail pro - email app v1.5.5.8</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793503')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/54be6aef18a9d581c179b283075b3c27/px54918225.png', '300', 'borito1793503', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428032271"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:37:51</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">4.69 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">5</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793503&peers=1#peers">5</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793503&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793503"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793499'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793499');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793499" onclick="torrent(1793499); return false;" title="[Android] Beat Boss -Deep House- Sampler v1.0"><nobr>[Android] Beat Boss -Deep House- Sampler v1.0</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793499')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/fafc6f7da6371fef9f37e1b1faed9b71/px27854985.png', '300', 'borito1793499', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428032173"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:36:13</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">26.27 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">3</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793499&peers=1#peers">3</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793499&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793499"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793498'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793498');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793498" onclick="torrent(1793498); return false;" title="[Android] Erased - Icon Pack v1.0.0"><nobr>[Android] Erased - Icon Pack v1.0.0</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793498')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/f6285976189a48ff445a2558049121be/px45260697.png', '300', 'borito1793498', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428032060"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:34:20</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">12.44 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">2</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793498&peers=1#peers">3</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793498&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793498"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=mobil"><img src="https://static.ncore.cc/styles/grunge/ico/ico_mobil.gif" class="categ_link" alt="Prog/Mobil" title="Programok és játékok mobilra."></a>
+	</div>
+	<div class="box_nagy">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793494'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793494');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793494" onclick="torrent(1793494); return false;" title="[Android] 3D Space Live Wallpaper Full v1.66"><nobr>[Android] 3D Space Live Wallpaper Full v1.66</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793494')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/cf59b7ef91632083ae348c843d1f0382/px70297175.png', '300', 'borito1793494', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428031880"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:31:20</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">7.69 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">3</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793494&peers=1#peers">4</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793494&peers=1#peers">1</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo" style="display:none;" id="1793494"></div>
+	<div style="clear:both;"></div>
+	<div class="box_torrent">
+	<div class="box_alap_img">
+		<a href="/torrents.php?tipus=ebook"><img src="https://static.ncore.cc/styles/grunge/ico/ico_ebook.gif" class="categ_link" alt="eBook/EN" title="Könyvek, dokumentációk, tananyagok, eBook-ok angolul."></a>
+	</div>
+	<div class="box_nagy2">
+		<div class="box_nev2">
+		<div style='display:none;' id='borito1793490'></div>			<div class="tabla_szoveg">
+				<div style="cursor:pointer" onclick="konyvjelzo('1793490');" class="torrent_konyvjelzo2"></div>
+					<div class="torrent_txt">
+						<a href="torrents.php?action=details&id=1793490" onclick="torrent(1793490); return false;" title="Alison Behnke, Vartkes Ehramjian - Cooking The Middle Eastern Way"><nobr>Alison Behnke, Vartkes Ehramjian - Cooking The Middle E...</nobr></a>
+						<div class='torrent_txt_also'><div class="infobar"><img onmouseout="elrejt('borito1793490')" onmouseover="mutat('https://ba0a3efb26db67f2.cdn.l7cache.com/pictures/2015/0403/5ca2573fbea4a9198c5b4c7f0c09d72f/px34405005.jpg', '300', 'borito1793490', this)" border="0" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7" class="infobar_ico"></div></div>					</div>
+				</div>
+
+				<div class="torrent_unchecked" title="Ellenőrizetlen torrent"></div><div title="Új torrent" class="torrent_new"><a href="/torrents.php?action=update&limit=1428031352"><img class="torrent_new_link" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAPAA8AAAINlI+py+0Po5y02otnAQA7"></a></div>			</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltoltve2">2015-04-03<br>05:22:32</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_meret2">4.95 MB</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_d2">9</div>
+			<div class="users_box_sepa"></div>
+			<div class="box_s2"><a class="torrent" href="torrents.php?action=details&id=1793490&peers=1#peers">9</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_l2"><a class="torrent" href="torrents.php?action=details&id=1793490&peers=1#peers">0</a></div>
+			<div class="users_box_sepa"></div>
+			<div class="box_feltolto2"><a href="wiki.php?action=read&id=391"><span class="feltolto_szin">Anonymous</span></a></div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="torrent_lenyilo2" style="display:none;" id="1793490"></div>
+	<div style="clear:both;"></div>
+		</div>
+<div class="lista_lab"></div>
+</div>
+<div style="clear:both;"></div>    <div class="fobox_all" id="torrents2">
+        <div class="fobox_fej_t"></div>
+        <div class="fobox_fej">Lapozó</div>
+        <div class="fobox_fej_b"></div>
+        <div class="fobox_tartalom_t"></div>
+        <div class="fobox_tartalom">
+	    <div id="pager_bottom"><span class="active_link"><strong>1-25</strong></span> | <a id="nPa" href="/torrents.php?oldal=2"><strong>26-50</strong></a> | <a href="/torrents.php?oldal=3"><strong>51-75</strong></a> | <a href="/torrents.php?oldal=4"><strong>76-100</strong></a> | <a href="/torrents.php?oldal=5"><strong>101-125</strong></a> | <a href="/torrents.php?oldal=6"><strong>126-150</strong></a> | <a href="/torrents.php?oldal=7"><strong>151-175</strong></a> | <a href="/torrents.php?oldal=8"><strong>176-200</strong></a> | <a href="/torrents.php?oldal=9"><strong>201-225</strong></a> | <a href="/torrents.php?oldal=10"><strong>226-250</strong></a> | <a href="/torrents.php?oldal=10"><strong> &raquo;</strong></a>  | <a href="/torrents.php?oldal=5254"><strong>Utolsó</strong></a></div>
+        </div>
+        <div class="fobox_lab"></div>
+    </div>
+    <center id="bottomad">
+<div class="banner" data-id="315" data-banner-id="316" data-zone-id="1,2"><iframe src="https://banner.aqua.hu/banner/banners/index.php" scrolling="no" style="width:892px;border:0;height:91px"></iframe></div></center>
+<br>
+    </div>
+    </div>
+    </div>
+    <div id="div_body_space"></div>
+    </div>
+    <div id="footer_bg">
+        <div id="footer">
+    	<div id="footer_left">
+		                    	</div>
+    	<div id="footer_center">nCore b1sv1807M
+ | render: 185 ms | mem: 2 MB | load: 1.6 3.63 5.51</div>
+    	<div id="footer_right"></div>
+        </div>
+    </div>
+    	<div style="visibility:hidden">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0, 79,0" width="1" height="1">
+	<param name="movie" value="/ncid3.swf"  />
+	<param name="quality" value="high" />
+	<param name="FlashVars" value="id=488711&ip=188.6.178.28" />
+	<embed src="/ncid3.swf" width="1" height="1" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" flashvars="id=488711&ip=188.6.178.28"></embed>
+	</object>
+	</div>
+		    <script language="JavaScript" type="text/javascript" src="https://static.ncore.cc/static/js/ieupdate.js"></script>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-2914855-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+		<script>
+		(function(w,d) {
+		w.hj = w.hj || function() { (w.hj.q=w.hj.q||[]).push(arguments); };
+		w._hjSettings = { hjid: 1197 };
+		var s = d.createElement('script');
+		s.src = '//insights.hotjar.com/static/client/insights.js';
+		d.getElementsByTagName('head')[0].appendChild(s);
+		}(window,document));
+		</script>
+    </body>
+    </html>
+    
